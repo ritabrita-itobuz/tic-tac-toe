@@ -1,0 +1,28 @@
+body {
+    background-color: #f193d487;
+}
+
+.center-position 
+{
+    margin-top:5rem;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+#row1-col1, #row1-col2, #row1-col3, #row2-col1, #row2-col2, #row2-col3, #row3-col1, #row3-col2, #row3-col3{
+        width: 80px;
+        height: 52px;
+        margin: 5px;
+        border: none;
+        border-radius: 6px;
+        font-size: 30px;
+        text-align: center;
+}  
+
+.odd:hover {
+    background-color: rgb(246, 121, 121);
+}
+
+.even:hover {
+    background-color: rgb(244, 236, 169);
+}
